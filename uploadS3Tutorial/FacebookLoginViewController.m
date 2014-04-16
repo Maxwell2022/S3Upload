@@ -7,7 +7,7 @@
 //
 
 #import "FacebookLoginViewController.h"
-#import "zumnyAppDelegate.h"
+#import "AppDelegate.h"
 
 @interface FacebookLoginViewController ()
 
@@ -63,7 +63,7 @@
          ^(FBSession *session, FBSessionState state, NSError *error) {
              
              // Retrieve the app delegate
-             zumnyAppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+             AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
              // Call the app delegate's sessionStateChanged:state:error method to handle session state changes
              [appDelegate sessionStateChanged:session state:state error:error];
          }];

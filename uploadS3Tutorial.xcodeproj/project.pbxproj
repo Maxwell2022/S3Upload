@@ -16,7 +16,7 @@
 		9CF8AACD18F92FD100E98D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AACC18F92FD100E98D66 /* UIKit.framework */; };
 		9CF8AAD318F92FD100E98D66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8AAD118F92FD100E98D66 /* InfoPlist.strings */; };
 		9CF8AAD518F92FD100E98D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AAD418F92FD100E98D66 /* main.m */; };
-		9CF8AAD918F92FD100E98D66 /* zumnyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AAD818F92FD100E98D66 /* zumnyAppDelegate.m */; };
+		9CF8AAD918F92FD100E98D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AAD818F92FD100E98D66 /* AppDelegate.m */; };
 		9CF8AADC18F92FD100E98D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8AADA18F92FD100E98D66 /* Main.storyboard */; };
 		9CF8AADF18F92FD100E98D66 /* zumnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AADE18F92FD100E98D66 /* zumnyViewController.m */; };
 		9CF8AAE118F92FD100E98D66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8AAE018F92FD100E98D66 /* Images.xcassets */; };
@@ -55,8 +55,8 @@
 		9CF8AAD218F92FD100E98D66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CF8AAD418F92FD100E98D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CF8AAD618F92FD100E98D66 /* uploadS3Tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uploadS3Tutorial-Prefix.pch"; sourceTree = "<group>"; };
-		9CF8AAD718F92FD100E98D66 /* zumnyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zumnyAppDelegate.h; sourceTree = "<group>"; };
-		9CF8AAD818F92FD100E98D66 /* zumnyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zumnyAppDelegate.m; sourceTree = "<group>"; };
+		9CF8AAD718F92FD100E98D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CF8AAD818F92FD100E98D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9CF8AADB18F92FD100E98D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF8AADD18F92FD100E98D66 /* zumnyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zumnyViewController.h; sourceTree = "<group>"; };
 		9CF8AADE18F92FD100E98D66 /* zumnyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zumnyViewController.m; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 			children = (
 				9CE1E7A418FE582600219890 /* pickImageViewController.h */,
 				9CE1E7A518FE582600219890 /* pickImageViewController.m */,
-				9CF8AAD718F92FD100E98D66 /* zumnyAppDelegate.h */,
-				9CF8AAD818F92FD100E98D66 /* zumnyAppDelegate.m */,
+				9CF8AAD718F92FD100E98D66 /* AppDelegate.h */,
+				9CF8AAD818F92FD100E98D66 /* AppDelegate.m */,
 				9CF8AADA18F92FD100E98D66 /* Main.storyboard */,
 				9CF8AADD18F92FD100E98D66 /* zumnyViewController.h */,
 				9CF8AADE18F92FD100E98D66 /* zumnyViewController.m */,
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF8AAD918F92FD100E98D66 /* zumnyAppDelegate.m in Sources */,
+				9CF8AAD918F92FD100E98D66 /* AppDelegate.m in Sources */,
 				9CE1E79E18FE3C5700219890 /* FacebookLoginViewController.m in Sources */,
 				9CE1E7A318FE4C9400219890 /* Contants.m in Sources */,
 				9CF8AAD518F92FD100E98D66 /* main.m in Sources */,

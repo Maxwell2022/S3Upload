@@ -1,5 +1,5 @@
 //
-//  zumnyAppDelegate.h
+//  AppDelegate.h
 //  uploadS3Tutorial
 //
 //  Created by Maxime Aoustin on 12/04/2014.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface zumnyAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
