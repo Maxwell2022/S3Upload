@@ -26,6 +26,16 @@
                                     <action selector="btnConnect:" destination="gYi-9b-aed" eventType="touchUpInside" id="8Yz-QL-UK5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmR-t8-vt0">
+                                <rect key="frame" x="122" y="145" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Test Segue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testSegue:" destination="gYi-9b-aed" eventType="touchUpInside" id="TQx-Sh-qpp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -36,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcO-WC-zgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="643" y="-38"/>
+            <point key="canvasLocation" x="215" y="-84"/>
         </scene>
         <!--Pick Image View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -89,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1130" y="-38"/>
+            <point key="canvasLocation" x="702" y="-84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IZA-rJ-Yac">
@@ -107,7 +117,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4Y-4b-L8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="-38"/>
+            <point key="canvasLocation" x="-295" y="-84"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
