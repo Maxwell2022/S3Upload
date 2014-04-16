@@ -121,8 +121,8 @@
 - (void)userLoggedIn
 {
     // Switch view to pick image
-    FacebookLoginViewController *facebookLogin = [FacebookLoginViewController alloc];
-    [facebookLogin performSegueWithIdentifier:@"LoginSuccessSegue" sender:facebookLogin];
+    FacebookLoginViewController *LoginController = [[FacebookLoginViewController alloc] init];
+    [LoginController successLoginTransition];
 }
 
 // Show an alert message
