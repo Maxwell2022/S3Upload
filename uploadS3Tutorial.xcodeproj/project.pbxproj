@@ -10,6 +10,7 @@
 		9CE1E79E18FE3C5700219890 /* FacebookLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1E79D18FE3C5700219890 /* FacebookLoginViewController.m */; };
 		9CE1E7A018FE3CF700219890 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE1E79F18FE3CF700219890 /* FacebookSDK.framework */; };
 		9CE1E7A318FE4C9400219890 /* Contants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1E7A218FE4C9400219890 /* Contants.m */; };
+		9CE1E7A618FE582600219890 /* pickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1E7A518FE582600219890 /* pickImageViewController.m */; };
 		9CF8AAC918F92FD100E98D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AAC818F92FD100E98D66 /* Foundation.framework */; };
 		9CF8AACB18F92FD100E98D66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AACA18F92FD100E98D66 /* CoreGraphics.framework */; };
 		9CF8AACD18F92FD100E98D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AACC18F92FD100E98D66 /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		9CF8AAEA18F92FD100E98D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AACC18F92FD100E98D66 /* UIKit.framework */; };
 		9CF8AAF218F92FD100E98D66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8AAF018F92FD100E98D66 /* InfoPlist.strings */; };
 		9CF8AAF418F92FD100E98D66 /* uploadS3TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AAF318F92FD100E98D66 /* uploadS3TutorialTests.m */; };
-		9CF8AAFF18F9301300E98D66 /* pickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AAFE18F9301300E98D66 /* pickImageViewController.m */; };
 		9CF8AB1C18FB70EB00E98D66 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AB1A18FB70EB00E98D66 /* AWSRuntime.framework */; };
 		9CF8AB1D18FB70EB00E98D66 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8AB1B18FB70EB00E98D66 /* AWSS3.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,8 @@
 		9CE1E79F18FE3CF700219890 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		9CE1E7A118FE4C9400219890 /* Contants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contants.h; sourceTree = "<group>"; };
 		9CE1E7A218FE4C9400219890 /* Contants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contants.m; sourceTree = "<group>"; };
+		9CE1E7A418FE582600219890 /* pickImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pickImageViewController.h; sourceTree = "<group>"; };
+		9CE1E7A518FE582600219890 /* pickImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pickImageViewController.m; sourceTree = "<group>"; };
 		9CF8AAC518F92FD100E98D66 /* uploadS3Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uploadS3Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF8AAC818F92FD100E98D66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9CF8AACA18F92FD100E98D66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +66,6 @@
 		9CF8AAEF18F92FD100E98D66 /* uploadS3TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uploadS3TutorialTests-Info.plist"; sourceTree = "<group>"; };
 		9CF8AAF118F92FD100E98D66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CF8AAF318F92FD100E98D66 /* uploadS3TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uploadS3TutorialTests.m; sourceTree = "<group>"; };
-		9CF8AAFD18F9301300E98D66 /* pickImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pickImageViewController.h; path = ../pickImageViewController.h; sourceTree = "<group>"; };
-		9CF8AAFE18F9301300E98D66 /* pickImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pickImageViewController.m; path = ../pickImageViewController.m; sourceTree = "<group>"; };
 		9CF8AB1A18FB70EB00E98D66 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
 		9CF8AB1B18FB70EB00E98D66 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSS3.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +133,8 @@
 		9CF8AACE18F92FD100E98D66 /* uploadS3Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				9CF8AAFD18F9301300E98D66 /* pickImageViewController.h */,
-				9CF8AAFE18F9301300E98D66 /* pickImageViewController.m */,
+				9CE1E7A418FE582600219890 /* pickImageViewController.h */,
+				9CE1E7A518FE582600219890 /* pickImageViewController.m */,
 				9CF8AAD718F92FD100E98D66 /* zumnyAppDelegate.h */,
 				9CF8AAD818F92FD100E98D66 /* zumnyAppDelegate.m */,
 				9CF8AADA18F92FD100E98D66 /* Main.storyboard */,
@@ -279,10 +279,10 @@
 			files = (
 				9CF8AAD918F92FD100E98D66 /* zumnyAppDelegate.m in Sources */,
 				9CE1E79E18FE3C5700219890 /* FacebookLoginViewController.m in Sources */,
-				9CF8AAFF18F9301300E98D66 /* pickImageViewController.m in Sources */,
 				9CE1E7A318FE4C9400219890 /* Contants.m in Sources */,
 				9CF8AAD518F92FD100E98D66 /* main.m in Sources */,
 				9CF8AADF18F92FD100E98D66 /* zumnyViewController.m in Sources */,
+				9CE1E7A618FE582600219890 /* pickImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
