@@ -7,7 +7,7 @@
         <!--Facebook Login View Controller-->
         <scene sceneID="j9d-FN-Ufp">
             <objects>
-                <viewController id="gYi-9b-aed" customClass="FacebookLoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FacebookLoginViewID" id="gYi-9b-aed" customClass="FacebookLoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m4L-Sg-MiB"/>
                         <viewControllerLayoutGuide type="bottom" id="28A-Na-5au"/>

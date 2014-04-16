@@ -121,7 +121,15 @@
 - (void)userLoggedIn
 {
     // Switch view to pick image
-    FacebookLoginViewController *LoginController = [[FacebookLoginViewController alloc] init];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+//    FacebookLoginViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"FacebookLoginViewID"];
+//    [controller successLoginTransition];
+    
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone"
+                                                         bundle:nil];
+    FacebookLoginViewController *LoginController =
+    [storyboard instantiateViewControllerWithIdentifier:@"FacebookLoginViewID"];
     [LoginController successLoginTransition];
 }
 
