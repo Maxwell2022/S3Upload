@@ -14,5 +14,7 @@
 }
 
 -(IBAction)btnConnect:(id)sender;
+-(IBAction)testSegue:(id)sender;
+-(void)successLoginTransition;
 
 @end

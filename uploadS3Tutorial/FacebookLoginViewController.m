@@ -70,6 +70,15 @@
     }
 }
 
+-(void)successLoginTransition
+{
+    [self performSegueWithIdentifier:@"LoginSuccessSegue" sender:self];
+}
+
+-(IBAction)testSegue:(id)sender
+{
+    [self performSegueWithIdentifier:@"LoginSuccessSegue" sender:self];
+}
 
 /*
 #pragma mark - Navigation
